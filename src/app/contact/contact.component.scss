@@ -1,0 +1,28 @@
+body{
+    background: #23252f;
+}
+.bg-greyy{
+    background: #23252f;
+}
+.main{
+    height: 37rem;
+    background: #23252f;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.inner{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+ul{
+    padding-bottom: 1px;
+}
+.dot {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
