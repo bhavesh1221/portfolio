@@ -5,6 +5,21 @@
     margin-top:0;
     margin-bottom: 0;
 }   
+
+.acive{
+    padding: 8px;
+    margin-right: 5px;
+}
+.acive:hover{
+    background: #23252f;
+    padding: 8px;
+    border-radius: 8px;
+}
+.acive:focus{
+    background: #23252f;
+    padding: 8px;
+    border-radius: 8px;
+}
 .main{
     display: flex;
     justify-content: space-around;  
