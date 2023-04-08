@@ -1,12 +1,12 @@
 body{
-    background: #23252f;
+    // background: #23252f;
 }
 .bg-greyy{
-    background: #23252f;
+    // background: #23252f;
 }
 .main{
     height: 37rem;
-    background: #23252f;
+    // background: #23252f;
     display: flex;
     justify-content:center;
     align-items:center;
@@ -25,4 +25,10 @@ ul{
     white-space: nowrap;
     overflow: hidden !important;
     text-overflow: ellipsis;
+}
+@media screen and (max-width: 425px){
+
+    .mb-44{
+        margin-bottom: 1.5rem;
+    }
 }

@@ -10,6 +10,7 @@ export class ContactComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.body.style.backgroundColor = "#23252f";
   }
 
 }

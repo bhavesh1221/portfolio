@@ -1,10 +1,10 @@
 
 .bg-greyy{
-    background: #23252f;
+    // background: #23252f;
 }
 .main{
     // height: 37rem;
-    background: #23252f;
+    // background: #23252f;
     height: 800px;
 }
 .inner{
@@ -14,3 +14,16 @@
 ul{
     padding-bottom: 1px;
 } 
+a{
+    word-break: break-word;
+}
+.marg-top{
+    padding-top: 100px;
+}
+
+@media screen and (max-width: 425px){
+    .max-wid-marg{
+        margin-left: 2rem !important;
+    }
+
+}
