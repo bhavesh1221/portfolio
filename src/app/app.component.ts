@@ -13,6 +13,7 @@ export class AppComponent {
     const hamburger = document.querySelector(".hamburger");
     const navLinks = document.querySelector(".nav-links");
     const links = document.querySelectorAll(".nav-links li");
+    const navp = document.querySelector(".close-ham");
 
     hamburger?.addEventListener('click', ()=>{
       //Animate Links
@@ -24,6 +25,10 @@ export class AppComponent {
         //Hamburger Animation
         hamburger.classList.toggle("toggle");
     });
+    navp?.addEventListener('click', ()=>{
+      navLinks?.classList.remove("open");
+      hamburger?.classList.toggle("toggle");
+    })
   }
  
 }

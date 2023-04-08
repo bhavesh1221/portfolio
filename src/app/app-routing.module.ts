@@ -6,11 +6,11 @@ import { ProjectsComponent } from './projects/projects.component';
 import { WorkexComponent } from './workex/workex.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
   { path: 'home', component: HomeComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'workex', component: WorkexComponent },
   { path: 'contact', component: ContactComponent },  
+  { path: '**', component: WorkexComponent },
 ];
 
 @NgModule({
