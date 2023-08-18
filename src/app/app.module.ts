@@ -9,7 +9,7 @@ import { WorkexComponent } from './workex/workex.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
-import { PopupComponent } from './home/popup/popup.component';
+// import { PopupComponent } from './home/popup/popup.component';
 
 
 
@@ -20,7 +20,7 @@ import { PopupComponent } from './home/popup/popup.component';
     ProjectsComponent,
     WorkexComponent,
     ContactComponent,
-    PopupComponent
+    // PopupComponent
   ],
   imports: [
     BrowserModule,

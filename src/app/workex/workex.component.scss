@@ -6,7 +6,7 @@
     // background: #23252f;
 }
 .inner{
-    padding: 10px;
+    // padding: 10px;
     color: white;
 }
 ul{
@@ -17,3 +17,17 @@ ul{
         padding-top: 79px;
     }
 // }
+a{
+    color: #3affc5;
+}
+
+
+.c-m{
+    margin-left: 10rem;
+}
+@media screen and (max-width: 425px){
+    .c-m{
+        margin-left: 2rem;
+    }
+
+}
