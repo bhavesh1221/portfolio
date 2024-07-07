@@ -58,13 +58,16 @@ nav{
     list-style: none; 
     width: 88vw;
     padding: 0 0.7vw;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     // text-transform: uppercase;
 }
 .nav-links li a{
     text-decoration: none;
     margin: 0 0.7vw;
+}
+.nav-links li p::before{
+    background-color: white;
 }
 .nav-links li a:hover {
     color: #61DAFB;
@@ -206,6 +209,25 @@ nav{
 }
 @media screen and (min-width: 425px){
     .marg{
-        margin-left: 12%;
+        margin-left: 5%;
     }
+}
+.downloadBtn{
+    background-color: rgb(35, 37, 47);
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+#blinking-text {
+animation: blink 3.5s linear infinite;
+}
+// .close-ham:hover{
+//     background-color: #61DAFB;
+// }
+.acive:hover{
+    background-color: white;
 }
