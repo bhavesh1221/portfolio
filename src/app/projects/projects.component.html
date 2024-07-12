@@ -6,23 +6,26 @@
       <div class="row">
         <div class="ms-5 max-wid-marg col-10">
           <div class="inner">
-              <ul style="background: #444444; border-radius: 8px; padding-top: 6px;padding-bottom: 6px;">
-                  <li class="" style="font-size:20px;"><a target="_blank" class="text-decoration-none text-white" href="https://bhavesh1221.github.io/trainbooking/"><strong>Train Booking App - Technologies used: HTML, CSS, Angular, NodeJs, ExpressJs, MySQL</strong></a></li>
-                <p style="font-size: 14px; margin-bottom: 2px;">
-                  Successfully designed and developed a feature-rich Train Booking application using the MEAN stack, meeting all requirements outlined on the <strong>"Unstop platform"</strong> Seamlessly integrated Angular for an interactive front-end, and harnessed Express.js, Node.js, and MySQL to ensure efficient data flow and storage. This project showcases my ability to deliver a comprehensive, end-to-end solution that aligns with industry standards.
+              <ul *ngFor="let item of data" style="background: #444444; border-radius: 8px; padding-top: 6px;padding-bottom: 6px;">
+                  <li  class="" style="font-size:20px;" [innerHTML]="item.heading" >
+                    <!-- <a target="_blank" class="text-decoration-none text-white" href="https://bhavesh1221.github.io/trainbooking/"><strong>Train Booking App - Technologies used: HTML, CSS, Angular, NodeJs, ExpressJs, MySQL
+                  </strong></a> -->
+                </li>
+                <p style="font-size: 14px; margin-bottom: 2px;" [innerHTML]="item.description">
+                  <!-- Successfully designed and developed a feature-rich Train Booking application using the MEAN stack, meeting all requirements outlined on the <strong>"Unstop platform"</strong> Seamlessly integrated Angular for an interactive front-end, and harnessed Express.js, Node.js, and MySQL to ensure efficient data flow and storage. This project showcases my ability to deliver a comprehensive, end-to-end solution that aligns with industry standards.
                   <br> The Project - <a  class="text-decoration-none" target="_blank" href="https://bhavesh1221.github.io/trainbooking/">https://bhavesh1221.github.io/trainbooking/ </a>
                   <br> Frontend Code - <a class="text-decoration-none" target="_blank"  href="https://github.com/bhavesh1221/trainbooking/tree/master">https://github.com/bhavesh1221/trainbooking/tree/master</a>
                   <br> Backend Code - <a class="text-decoration-none" target="_blank"  href="https://github.com/bhavesh1221/trainbooking_BE">https://github.com/bhavesh1221/trainbooking_BE</a>
                  
 
                     <br>
-                    <a class="text-decoration-none" target="_blank" href=""></a>
+                    <a class="text-decoration-none" target="_blank" href=""></a> -->
                 </p>
                    
               </ul>
           </div>
       </div>
-          <div class="ms-5 max-wid-marg col-10">
+          <!-- <div class="ms-5 max-wid-marg col-10">
               <div class="inner">
                   <ul style="background: #444444; border-radius: 8px; padding-top: 6px;padding-bottom: 6px; padding-right: 11px;">
                       <li class="" style="font-size:20px;"><a class="text-decoration-none text-white" target="_blank" href="https://bhavesh1221.github.io/angular_electrons_web/"><strong>Electrons - Electronics Ecommerce Web App</strong></a></li>
@@ -54,7 +57,9 @@
         <div class="ms-5 max-wid-marg col-10">
           <div class="inner">
               <ul style="background: #444444; border-radius: 8px; padding-top: 6px;padding-bottom: 6px;">
-                  <li class="" style="font-size:20px;"><a class="text-decoration-none text-white" href="https://bhavesh1221.github.io/TodoListUsingJavaScript/" target="_blank"><strong>Task manager</strong></a></li>
+                  <li class="" style="font-size:20px;">
+                    <a class="text-decoration-none text-white" href="https://bhavesh1221.github.io/TodoListUsingJavaScript/" target="_blank"><strong>Task manager</strong></a>
+                  </li>
                 <p style="font-size: 14px; margin-bottom: 2px;">
                   <a class="text-decoration-none" target="_blank" href="https://bhavesh1221.github.io/TodoListUsingJavaScript/">https://bhavesh1221.github.io/TodoListUsingJavaScript/</a>
                   <br>
@@ -77,8 +82,20 @@
                  
             </ul>
         </div>
-    </div>
+    </div> -->
 
       </div>
     </div>
   </div>
+  <ol>
+    <!-- <li *ngFor="let item of data">
+      <div class="ms-5 max-wid-marg col-10">
+        <div class="inner">
+            <ul style="background: #444444; border-radius: 8px; padding-top: 6px;padding-bottom: 6px;">
+                <li [innerHTML]="item.description" class="" style="font-size:20px;"></li>
+            </ul>
+        </div>
+    </div>
+      
+    </li> -->
+  </ol>
