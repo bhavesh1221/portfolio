@@ -11,6 +11,12 @@ export class ProjectsComponent implements OnInit {
 
   data = [
     {
+      description: `This chatbot web application is built using Angular and focuses on delivering a smooth, suggestion-based conversational experience. It features dynamic multi-level navigation, avatar-based UI, and personalized interactions. The bot guides users through tasks like booking rides, ordering food, or getting general help, with context-aware responses and the ability to go back to previous suggestions. A final confirmation message is shown when a task is completed, like booking a ride.
+                  <br>
+                  <a class="text-decoration-none text-info" target="_blank" href="https://bhavesh1221.github.io/chatbot/">https://bhavesh1221.github.io/chatbot/</a>`,
+      heading: `<a class="text-decoration-none text-white" target="_blank" href="https://bhavesh1221.github.io/chatbot-angular/"><strong>Smart Chatbot - Suggestion-Based Chat UI</strong></a>`
+    },
+    {
       description : `
                     Successfully designed and developed a feature-rich Train Booking application using the MEAN stack, 
                     meeting all requirements outlined on the <strong>Unstop platform</strong>. Seamlessly integrated 
